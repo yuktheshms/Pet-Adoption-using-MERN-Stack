@@ -1,0 +1,44 @@
+/* #putAdoption h1 {
+  text-align: center;
+  margin-bottom: 2px;
+} */
+/* #putAdoption {
+  margin-left: 200px;
+} */
+body {
+  height: 100vh;
+}
+#adoptionfrom {
+  display: flex;
+  flex-direction: column;
+}
+
+#adoptionfrom input {
+  height: 30px;
+  width: 300px;
+}
+#adoptionfrom textarea {
+  height: 100px;
+  width: 300px;
+}
+#adoptionfrom select {
+  height: 30px;
+  width: 300px;
+}
+#adoptionfrom button {
+  height: 30px;
+  width: 300px;
+  background-color: rgba(16, 124, 150, 0.8);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#adoptionfrom button:hover {
+  background-color: rgba(16, 124, 150, 1);
+}
+
+#adoptionfrom button:active {
+  background-color: rgba(16, 124, 150, 1.2);
+}

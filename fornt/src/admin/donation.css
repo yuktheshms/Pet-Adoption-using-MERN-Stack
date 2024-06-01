@@ -1,0 +1,32 @@
+.donations-container {
+  padding: 20px;
+}
+
+.donation-card {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-card h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.donation-card p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #666;
+}
+
+.donation-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.donation-header h1 {
+  font-size: 24px;
+  color: #333;
+}

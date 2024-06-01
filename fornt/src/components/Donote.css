@@ -1,0 +1,17 @@
+.imgupi {
+  width: 200px;
+  height: 200px;
+  margin-left: 44vw;
+  margin-top: 20px;
+}
+.payment {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px;
+}
+.payment input {
+  width: 20%;
+  height: 2rem;
+}

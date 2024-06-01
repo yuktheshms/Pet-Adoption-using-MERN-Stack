@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Protest Riot", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#main-container-signin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+}
+
+#container1-signin {
+  flex: 1;
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+  font-size: 40px;
+  align-items: center;
+}
+img-signup {
+  width: 300px;
+  height: 300px;
+}
+#p-signup {
+  color: rgb(78, 73, 217);
+  font-size: 30px;
+}
+
+#container2-signup {
+  flex: 1;
+  background: linear-gradient(135deg, #eaf6f6, #6db5b5eb);
+  height: 100vh;
+  width: 40vw;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container2-signup h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#box1-signup {
+  margin-top: 0px;
+  height: 70vh;
+  width: 100%;
+  padding: 10px 160px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+#inputfield-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn2 {
+  background-color: rgba(255, 0, 0, 1);
+}
+#btn2:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.btn:hover {
+  background-color: #45a049;
+}

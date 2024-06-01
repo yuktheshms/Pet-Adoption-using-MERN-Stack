@@ -1,0 +1,72 @@
+{
+  "cats": [
+    {
+      "breed": "Persian",
+      "image": "./img/Persian.jpeg",
+      "description": "The Persian cat is a long-haired breed characterized by its round face and short muzzle."
+    },
+    {
+      "breed": "Siamese",
+      "image": "./img/Siamese.jpeg",
+      "description": "The Siamese cat is known for its striking blue almond-shaped eyes and short coat with color points."
+    },
+    {
+      "breed": "Maine Coon",
+      "image": "./img/MaineCoon.jpg",
+      "description": "The Maine Coon is one of the largest domesticated cat breeds, known for its tufted ears and bushy tail."
+    },
+    {
+      "breed": "Bengal",
+      "image": "./img/Bengal-Cat.jpg",
+      "description": "The Bengal cat is a domesticated breed with a distinctive spotted or marbled coat reminiscent of a wild leopard."
+    },
+    {
+      "breed": "Scottish Fold",
+      "image": "./img/Scottish Fold.jpeg",
+      "description": "The Scottish Fold is known for its unique folded ears, giving it a distinctive appearance."
+    }
+  ],
+  "dogs": [
+    {
+      "breed": "Labrador Retriever",
+      "image": "./img/labrador-retriever-05.jpg",
+      "description": "The Labrador Retriever is one of the most popular dog breeds, known for its friendly and outgoing nature."
+    },
+    {
+      "breed": "German Shepherd",
+      "image": "./img/german-shepherds.jpg",
+      "description": "The German Shepherd is a versatile and intelligent breed often used in police and military work."
+    },
+    {
+      "breed": "Golden Retriever",
+      "image": "./img/GoldenRetriever.jpg",
+      "description": "The Golden Retriever is a friendly and intelligent breed known for its beautiful golden coat."
+    },
+    {
+      "breed": "Bulldog",
+      "image": "./img/Bulldog_inglese.jpg",
+      "description": "The Bulldog is a muscular and wrinkled breed known for its distinctive pushed-in nose and loose skin."
+    },
+    {
+      "breed": "Beagle",
+      "image": "./img/Beagle-hound-dog-puppy.webp",
+      "description": "The Beagle is a small and friendly breed known for its keen sense of smell and hunting abilities."
+    },
+
+    {
+      "breed": "Boxer",
+      "image": "./img/Boxer.jpeg",
+      "description": "The Boxer is a medium-sized and muscular breed known for its strong jaws and playful demeanor."
+    },
+    {
+      "breed": "Siberian Husky",
+      "image": "./img/Shih-Tzu.avif",
+      "description": "The Siberian Husky is a medium-sized working breed known for its striking blue or multicolored eyes and thick double coat."
+    },
+    {
+      "breed": "Shih Tzu",
+      "image": "./img/SiberianHusky.jpeg",
+      "description": "The Shih Tzu is a small and affectionate breed known for its long and flowing coat and friendly personality."
+    }
+  ]
+}

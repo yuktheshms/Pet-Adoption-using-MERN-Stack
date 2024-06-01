@@ -1,0 +1,58 @@
+.adoption-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.adoption-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.adoption-form-container label {
+  font-weight: bold;
+}
+
+.adoption-form-container input[type="text"],
+.adoption-form-container input[type="email"],
+.adoption-form-container input[type="tel"],
+.adoption-form-container textarea,
+.adoption-form-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.adoption-form-container textarea {
+  height: 100px;
+}
+
+.adoption-form-container button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.adoption-form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.adoption-form-container button[type="submit"]:active {
+  background-color: #b30012;
+}
+.adpotion-form-submitted {
+  display: none;
+}
+.adpotion-form-submitted {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

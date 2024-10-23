@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(
   cors({
     
-    origin: "https://pet-adoption-using-mern-stack-ucg3.vercel.app/",
+    origin: "https://pet-adoption-using-mern-stack-ucg3.vercel.app",
     credentials: true,
   })
 );

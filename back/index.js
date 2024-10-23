@@ -23,7 +23,7 @@ const connectionParams = {
   useUnifiedTopology: true,
 };
 
-// Routes
+// Route
 app.use("/api/petpals", require("./router/Registrationroute"));
 app.use("/api/artical", require("./router/articalroute"));
 app.use("/api/form", require("./router/adoptionform"));

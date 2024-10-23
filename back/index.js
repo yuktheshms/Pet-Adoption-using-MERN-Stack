@@ -22,8 +22,8 @@ const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
-//const dburl = "mongodb://localhost:27017/petpals";
 
+// Routes
 app.use("/api/petpals", require("./router/Registrationroute"));
 app.use("/api/artical", require("./router/articalroute"));
 app.use("/api/form", require("./router/adoptionform"));
@@ -33,42 +33,7 @@ app.use("/api/payment", require("./router/payment"));
 const port = 5000;
 
 mongoose
-  .connect(dburl)
-  .then(() => {
-    console.log("Connected to the database");
-  })
-  .catch((err) => {
-    console.log("Error connecting to the database:", err);
-  });
-
-app.listen(port, () => console.log(`Server is running on port ${port}`));
-
-    origin: true,
-    credentials: true,
-  })
-);
-
-app.use(express.json());
-
-// const dburl =
-//   "mongodb+srv://petpals:iiHCvsqGaautYeZf@cluster0.hhki8kd.mongodb.net/petpals?retryWrites=true&w=majority";
-
-// const connectionParams = {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-const dburl = "mongodb://localhost:27017/petpals";
-
-app.use("/api/petpals", require("./router/Registrationroute"));
-app.use("/api/artical", require("./router/articalroute"));
-app.use("/api/form", require("./router/adoptionform"));
-app.use("/api/request", require("./router/adoptionreq"));
-app.use("/api/payment", require("./router/payment"));
-
-const port = 5000;
-
-mongoose
-  .connect(dburl)
+  .connect(dburl, connectionParams)
   .then(() => {
     console.log("Connected to the database");
   })

@@ -1,32 +1,14 @@
 const mongoose = require("mongoose");
-
 const express = require("express");
 const app = express();
-
-var cookieParser = require("cookie-parser");
+const cookieParser = require("cookie-parser");
 const cors = require("cors");
 require("dotenv").config();
-const stripe = require("stripe")(
-  "sk_test_51OnZUpSB5YEoLiYMqfnKyHDTQrSbH5A5A15q1EcXq3VCxYXyI16zRG8ytvy2RURZtO895m8awFAPAtDpUuopFjzp00jSUZOeLt"
-);
+const stripe = require("stripe")("sk_test_51OnZUpSB5YEoLiYMqfnKyHDTQrSbH5A5A15q1EcXq3VCxYXyI16zRG8ytvy2RURZtO895m8awFAPAtDpUuopFjzp00jSUZOeLt");
+
 app.use(cookieParser());
 app.use(
   cors({
-    const mongoose = require("mongoose");
- 
-const express = require("express");
-const app = express();
-
-var cookieParser = require("cookie-parser");
-const cors = require("cors");
-require("dotenv").config();
-const stripe = require("stripe")(
-  "sk_test_51OnZUpSB5YEoLiYMqfnKyHDTQrSbH5A5A15q1EcXq3VCxYXyI16zRG8ytvy2RURZtO895m8awFAPAtDpUuopFjzp00jSUZOeLt"
-);
-app.use(cookieParser());
-app.use(
-  cors({
-    
     origin: "https://pet-adoption-using-mern-stack-ucg3.vercel.app",
     credentials: true,
   })
@@ -34,11 +16,11 @@ app.use(
 
 app.use(express.json());
 
-const dburl =
-  "mongodb+srv://yuktheshms00:fg5BcyEikcy7nCUt@petpals.vtx86.mongodb.net/?retryWrites=true&w=majority&appName=Petpals";
- const connectionParams = {
+const dburl = "mongodb+srv://yuktheshms00:fg5BcyEikcy7nCUt@petpals.vtx86.mongodb.net/?retryWrites=true&w=majority&appName=Petpals";
+
+const connectionParams = {
   useNewUrlParser: true,
-   useUnifiedTopology: true,
+  useUnifiedTopology: true,
 };
 //const dburl = "mongodb://localhost:27017/petpals";
 

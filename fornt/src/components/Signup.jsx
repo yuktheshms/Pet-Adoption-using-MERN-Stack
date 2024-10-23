@@ -48,7 +48,7 @@ function Signup() {
 
   const handlePhotoChange = (e) => {
     const file = e.target.files[0];
-    const maxSize = 2 * 1024 * 1024;
+    // const maxSize = 2 * 1024 * 1024;
     const reader = new FileReader();
 
     reader.onloadend = () => {

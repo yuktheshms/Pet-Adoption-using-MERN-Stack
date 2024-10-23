@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(
   cors({
     const mongoose = require("mongoose");
-
+ 
 const express = require("express");
 const app = express();
 

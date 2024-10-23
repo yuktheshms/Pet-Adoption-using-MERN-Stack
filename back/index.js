@@ -34,14 +34,13 @@ app.use(
 
 app.use(express.json());
 
-// const dburl =
-//   "mongodb+srv://petpals:iiHCvsqGaautYeZf@cluster0.hhki8kd.mongodb.net/petpals?retryWrites=true&w=majority";
-
-// const connectionParams = {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-const dburl = "mongodb://localhost:27017/petpals";
+const dburl =
+  "mongodb+srv://yuktheshms00:fg5BcyEikcy7nCUt@petpals.vtx86.mongodb.net/?retryWrites=true&w=majority&appName=Petpals";
+ const connectionParams = {
+  useNewUrlParser: true,
+   useUnifiedTopology: true,
+};
+//const dburl = "mongodb://localhost:27017/petpals";
 
 app.use("/api/petpals", require("./router/Registrationroute"));
 app.use("/api/artical", require("./router/articalroute"));
